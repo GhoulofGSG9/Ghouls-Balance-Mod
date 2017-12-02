@@ -18,11 +18,7 @@ ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/AlienUpgrade
 
 --Vampirism changes
 ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/Vampirism/DamageTypes.lua", "post" )
-
---Phantom
-ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Phantom/Alien.lua", "post" )
-ModLoader.SetupFileHook( "lua/TechTreeButtons.lua", "lua/GhoulsBalance/Phantom/TechTreeButtons.lua", "post" )
-ModLoader.SetupFileHook( "lua/TechData.lua", "lua/GhoulsBalance/Phantom/TechData.lua", "post" )
+ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Vampirism/Alien.lua", "post" )
 
 --Silence changes
 ModLoader.SetupFileHook( "lua/Weapons/Alien/Ability.lua", "lua/GhoulsBalance/Silence/Ability.lua", "post" )
@@ -38,3 +34,6 @@ ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua
 
 --Auto select upgrades at spawn for aliens
 ModLoader.SetupFileHook( "lua/Egg.lua", "lua/GhoulsBalance/SpawnWithUpgrades/Egg.lua", "post" )
+
+--Exos
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Exos/Balance.lua", "post" )

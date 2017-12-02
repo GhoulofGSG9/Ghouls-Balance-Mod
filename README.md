@@ -11,15 +11,13 @@ Current changes:
         - Autoselect upgrades at spawn
             - At spawn, previously selected upgrades will be reapplied if they are still available.
             - If the player hasn't previously selected an upgrade for an available trait, a random one will be applied at spawn. 
-            
+
+        - Crush
+            - Requires a Shift Hive (instead of a Crag Hive)
+
         - Silence
-            - Removed Silence 
-            
-        - Phantom
-            - Added the Phantom upgrade back to the game
-            - Phantom cloaks you while moving slowly
-            - Phantom lets you move and attack structures almost silently
-            - Requires a Shade Hive
+            - Doesn't affect attack sounds anymore
+            - Requires a Shade Hive (instead of a Shift Hive)
             
         - Vampirism
             - Now requires a Crag Hive (instead of a Shade Hive)
@@ -38,16 +36,23 @@ Current changes:
         
         - Regeneration 
             - Increased amount of hp regen restores every 2 secs to 4% (from 2%) of the base hp for each shell.
-            
-        - Crush
-            - Now requires a Shift Hive (instead of a Crag Hive)
-            
-    - PvE
-        - Drifter 
-            - Added passive abilities for each hive type:
-                - Camouflage (Shade Hive): Drifters turn invisible when they idle.
-                - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
-                - Celerity (Shift Hive): Drifters move 18% faster.
+
+        - Focus
+            - Attacks consume 33% more energy.
+
+- Marines
+    - Exos
+        - Increased cost to 55 pres (from 45)
+        
+        - Railgun
+            - Lowered base (uncharged) damage to 10 from 33. Each railgun shoot deals now 150 dmg at weapon level 0 fully charged (instead of 173).
+                    
+- PvE
+    - Drifter 
+        - Added passive abilities for each hive type:
+            - Camouflage (Shade Hive): Drifters turn invisible when they idle.
+            - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
+            - Celerity (Shift Hive): Drifters move 18% faster.
 
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
