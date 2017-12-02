@@ -39,13 +39,20 @@ Current changes:
 
         - Focus
             - Attacks consume 33% more energy.
-            
-    - PvE
-        - Drifter 
-            - Added passive abilities for each hive type:
-                - Camouflage (Shade Hive): Drifters turn invisible when they idle.
-                - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
-                - Celerity (Shift Hive): Drifters move 18% faster.
+
+- Marines
+    - Exos
+        - Increased cost to 55 pres (from 45)
+        
+        - Railgun
+            - Lowered base (uncharged) damage to 10 from 33. Each railgun shoot deals now 150 dmg at weapon level 0 fully charged (instead of 173).
+                    
+- PvE
+    - Drifter 
+        - Added passive abilities for each hive type:
+            - Camouflage (Shade Hive): Drifters turn invisible when they idle.
+            - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
+            - Celerity (Shift Hive): Drifters move 18% faster.
 
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
