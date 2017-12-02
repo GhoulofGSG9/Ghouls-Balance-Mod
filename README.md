@@ -11,15 +11,13 @@ Current changes:
         - Autoselect upgrades at spawn
             - At spawn, previously selected upgrades will be reapplied if they are still available.
             - If the player hasn't previously selected an upgrade for an available trait, a random one will be applied at spawn. 
-            
+
+        - Crush
+            - Requires a Shift Hive (instead of a Crag Hive)
+
         - Silence
-            - Removed Silence 
-            
-        - Phantom
-            - Added the Phantom upgrade back to the game
-            - Phantom cloaks you while moving slowly
-            - Phantom lets you move and attack structures almost silently
-            - Requires a Shade Hive
+            - Doesn't affect attack sounds anymore
+            - Requires a Shade Hive (instead of a Shift Hive)
             
         - Vampirism
             - Now requires a Crag Hive (instead of a Shade Hive)
@@ -38,9 +36,9 @@ Current changes:
         
         - Regeneration 
             - Increased amount of hp regen restores every 2 secs to 4% (from 2%) of the base hp for each shell.
-            
-        - Crush
-            - Now requires a Shift Hive (instead of a Crag Hive)
+
+        - Focus
+            - Attacks consume 33% more energy.
             
     - PvE
         - Drifter 
