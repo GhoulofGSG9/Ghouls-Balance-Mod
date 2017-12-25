@@ -41,12 +41,7 @@ Current changes:
             - Attacks consume 33% more energy.
 
 - Marines
-    - Exos
-        - Increased cost to 55 pres (from 45)
-        
-        - Railgun
-            - Lowered base (uncharged) damage to 10 from 33. Each railgun shoot deals now 150 dmg at weapon level 0 fully charged (instead of 173).
-                    
+    
 - PvE
     - Drifter 
         - Added passive abilities for each hive type:
