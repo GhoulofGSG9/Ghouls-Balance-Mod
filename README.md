@@ -41,12 +41,12 @@ Current changes:
             - Attacks consume 33% more energy.
 
 - Marines
-    - Exos
-        - Increased cost to 55 pres (from 45)
-        
-        - Railgun
-            - Lowered base (uncharged) damage to 10 from 33. Each railgun shoot deals now 150 dmg at weapon level 0 fully charged (instead of 173).
-                    
+    - Flamethrower
+        - Fixed that the Flamethrower dealt normal damage instead of light damage
+        - Fixed that the Flamethrower AOE damage radius was too large (3 meters instead of 1.8).
+        - Lowered the direct damage of the Flamethrower to 12 (from 15)
+        - The flame puddle doesn't detonate on creation anymore so players have a chance to move out of it before taking damage.
+    
 - PvE
     - Drifter 
         - Added passive abilities for each hive type:
