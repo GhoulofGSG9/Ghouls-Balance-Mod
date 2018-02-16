@@ -34,8 +34,3 @@ ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua
 
 --Auto select upgrades at spawn for aliens
 ModLoader.SetupFileHook( "lua/Egg.lua", "lua/GhoulsBalance/SpawnWithUpgrades/Egg.lua", "post" )
-
---FT Hotfix 320
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/FT/Balance.lua", "post" )
-ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/FT/DamageTypes.lua", "post" )
-ModLoader.SetupFileHook( "lua/Weapons/Marine/Flame.lua", "lua/GhoulsBalance/FT/Flame.lua", "post" )

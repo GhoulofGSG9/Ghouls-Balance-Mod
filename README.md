@@ -39,13 +39,6 @@ Current changes:
 
         - Focus
             - Attacks consume 33% more energy.
-
-- Marines
-    - Flamethrower
-        - Fixed that the Flamethrower dealt normal damage instead of light damage
-        - Fixed that the Flamethrower AOE damage radius was too large (3 meters instead of 1.8).
-        - Lowered the direct damage of the Flamethrower to 12 (from 15)
-        - The flame puddle doesn't detonate on creation anymore so players have a chance to move out of it before taking damage.
     
 - PvE
     - Drifter 
