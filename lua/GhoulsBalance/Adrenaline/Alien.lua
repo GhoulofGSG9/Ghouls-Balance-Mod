@@ -1,0 +1,1 @@
+Alien.kEnergyAdrenalineRecuperationRate = Alien.kEnergyRecuperationRate --no more regen bonus for Adrenaline

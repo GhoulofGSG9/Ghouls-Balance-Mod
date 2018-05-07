@@ -40,3 +40,7 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/LerkPRes/Balance.
 
 --Increase cost and build time of the gorge tunnel
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeTunnelNerf/Balance.lua", "post" )
+
+--Adrenaline change to not regen energy anymore
+ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Adrenaline/Alien.lua", "post" )
+ModLoader.SetupFileHook( "lua/BalanceMisc.lua", "lua/GhoulsBalance/Adrenaline/BalanceMisc.lua", "post" )
