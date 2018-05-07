@@ -71,7 +71,7 @@ if Server then
 
             resuppliedPlayer = true
 
-            if self:GetIsAdvanced() and GetHasMixin(player, "ParasiteAble") and player:GetIsParasited() then
+            if self:GetIsAdvanced() and HasMixin(player, "ParasiteAble") and player:GetIsParasited() then
 
                 player:RemoveParasite()
 
