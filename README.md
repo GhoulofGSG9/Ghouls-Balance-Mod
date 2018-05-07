@@ -4,7 +4,13 @@
 
 This mod contains various prototype balance changes based on various ideas of the NS2 balance team.
 
-Current changes:        
+###Latest Changes:
+
+- 7 May 2018
+    - Lerk
+        - Increased Pres Cost to 21 (from 18)        
+
+###All Changes:
 
 - Aliens
     - Upgrades
@@ -39,13 +45,15 @@ Current changes:
 
         - Focus
             - Attacks consume 33% more energy.
-    
-- PvE
-    - Drifter 
-        - Added passive abilities for each hive type:
-            - Camouflage (Shade Hive): Drifters turn invisible when they idle.
-            - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
-            - Celerity (Shift Hive): Drifters move 18% faster.
+            
+    - Lerk
+        - Increased Pres Cost to 21 (from 18)    
+    - PvE
+        - Drifter 
+            - Added passive abilities for each hive type:
+                - Camouflage (Shade Hive): Drifters turn invisible when they idle.
+                - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
+                - Celerity (Shift Hive): Drifters move 18% faster.
 
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 

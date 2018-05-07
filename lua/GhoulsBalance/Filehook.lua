@@ -34,3 +34,6 @@ ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua
 
 --Auto select upgrades at spawn for aliens
 ModLoader.SetupFileHook( "lua/Egg.lua", "lua/GhoulsBalance/SpawnWithUpgrades/Egg.lua", "post" )
+
+--Lerk PRes change
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/LerkPRes/Balance.lua", "post" )
