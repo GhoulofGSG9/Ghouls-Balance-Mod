@@ -8,19 +8,11 @@ function GUIModChangelog:Initialize()
 	Window.Initialize(self)
 
 	self:SetWindowName("Changelog")
-	self:SetInitialVisible(true)
+	self:SetInitialVisible(false)
 	self:DisableResizeTile()
 	self:DisableSlideBar()
 	self:DisableContentBox()
 	self:SetLayer(kGUILayerMainMenuDialogs)
-
-	self:AddEventCallbacks{
-		OnEscape = function(self)
-			self:SetIsVisible(false)
-			GetGUIMainMenu():MaybeOpenPopup()
-		end
-	}
-
 	-- Hook the close...
 	self.titleBar.closeButton:AddEventCallbacks( {
 		OnClick = function(self)

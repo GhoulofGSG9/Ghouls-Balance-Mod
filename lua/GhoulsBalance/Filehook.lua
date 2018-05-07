@@ -1,6 +1,9 @@
 --Check for diabling global
 if gDisableUWEBalance then return end
 
+--changelog
+ModLoader.SetupFileHook( "lua/Player_Client.lua", "lua/GhoulsBalance/changelog.lua", "post" )
+
 --drifter techs
 ModLoader.SetupFileHook( "lua/Drifter.lua", "lua/GhoulsBalance/DrifterPassives/Drifter.lua", "post" )
 ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/DrifterPassives/AlienTechMap.lua", "post" )

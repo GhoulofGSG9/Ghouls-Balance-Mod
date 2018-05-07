@@ -1,5 +1,3 @@
-GBM_version = 201707101 --year month date versionofdate
-
 Script.Load("lua/GhoulsBalance/GUIModChangelog.lua")
 
 local function showchangelog()
@@ -7,10 +5,14 @@ local function showchangelog()
 	local mm = GetGUIMainMenu and GetGUIMainMenu()
 	if mm then
 		local changelog = CreateMenuElement(mm.mainWindow, "GUIModChangelog")
+		changelog:SetIsVisible(true)
 	end
 end
 
-local function onLoadComplete()
+local oldOnInitLocalClient = Player.OnInitLocalClient
+function Player:OnInitLocalClient()
+	oldOnInitLocalClient(self)
+
 	local oldversion = Client.GetOptionInteger("balancemod_version", 0)
 	if GBM_version > oldversion then
 		Client.SetOptionInteger("balancemod_version", GBM_version)
@@ -19,5 +21,4 @@ local function onLoadComplete()
 
 end
 
-Event.Hook("LoadComplete", onLoadComplete)
 Event.Hook("Console_changelog", showchangelog)
