@@ -2,6 +2,8 @@
 
 **SteamWorks Mod ID**: *2dd47a50*
 
+**Last Update**: *16 Feb 2018*
+
 This mod contains various prototype balance changes based on various ideas of the NS2 balance team.
 
 ###Latest Changes (7 May 2018):
