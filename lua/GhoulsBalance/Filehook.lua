@@ -37,3 +37,6 @@ ModLoader.SetupFileHook( "lua/Egg.lua", "lua/GhoulsBalance/SpawnWithUpgrades/Egg
 
 --Lerk PRes change
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/LerkPRes/Balance.lua", "post" )
+
+--Increase cost and build time of the gorge tunnel
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeTunnelNerf/Balance.lua", "post" )

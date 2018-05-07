@@ -8,7 +8,11 @@ This mod contains various prototype balance changes based on various ideas of th
 
 - 7 May 2018
     - Lerk
-        - Increased Pres Cost to 21 (from 18)        
+        - Increased Pres Cost to 21 (from 18).
+    - Gorge Tunnel
+        - Increased the Pres cost to 4 (from 3).
+        - Increased the growth time to 30 seconds (from 10). So it takes now 15 seconds to build with heal spry instead of 5 seconds.
+    
 
 ###All Changes:
 
@@ -46,6 +50,10 @@ This mod contains various prototype balance changes based on various ideas of th
         - Focus
             - Attacks consume 33% more energy.
             
+    - Gorge 
+        - Gorge Tunnel
+            - Increased the Pres cost to 4 (from 3)
+            - Increased the build time to 20 seconds (from 10)                    
     - Lerk
         - Increased Pres Cost to 21 (from 18)    
     - PvE
