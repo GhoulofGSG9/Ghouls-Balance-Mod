@@ -44,5 +44,16 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeTunnelNerf/B
 --Adrenaline change to not regen energy anymore
 ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Adrenaline/Alien.lua", "post" )
 ModLoader.SetupFileHook( "lua/BalanceMisc.lua", "lua/GhoulsBalance/Adrenaline/BalanceMisc.lua", "post" )
+
+--Suppy Rebalance
+ModLoader.SetupFileHook( "lua/BalanceMisc.lua", "lua/GhoulsBalance/Supply/BalanceMisc.lua", "post" )
+ModLoader.SetupFileHook( "lua/NS2Utility.lua", "lua/GhoulsBalance/Supply/NS2Utility.lua", "post" )
+ModLoader.SetupFileHook( "lua/TechData.lua", "lua/GhoulsBalance/Supply/TechData.lua", "post" )
+ModLoader.SetupFileHook( "lua/ArmsLab.lua", "lua/GhoulsBalance/Supply/ArmsLab.lua", "post" )
+ModLoader.SetupFileHook( "lua/Observatory.lua", "lua/GhoulsBalance/Supply/Observatory.lua", "post" )
+ModLoader.SetupFileHook( "lua/PrototypeLab.lua", "lua/GhoulsBalance/Supply/PrototypeLab.lua", "post" )
+ModLoader.SetupFileHook( "lua/Armory.lua", "lua/GhoulsBalance/Supply/Armory.lua", "post" )
+ModLoader.SetupFileHook( "lua/RoboticsFactory.lua", "lua/GhoulsBalance/Supply/RoboticsFactory.lua", "post" )
+
 -- Improved Advanced Armory
 ModLoader.SetupFileHook( "lua/Armory.lua", "lua/GhoulsBalance/AdvAmoryAmorRepair/Armory.lua", "post" )

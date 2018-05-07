@@ -25,7 +25,25 @@ This mod contains various prototype balance changes based on various ideas of th
         - Fade Stab: 6% (15-18.6 hp)
         - Onos Gore: 1.5% (18-25.2 hp)
 - Advanced Amory
-    - The Advanced Amory now repairs armor and removes parasite    
+    - The Advanced Amory now repairs armor and removes parasite
+- Rebalanced the Supply system
+    - Aliens
+        - Have 100 supply per Hive
+        - Supply costs:
+            - Hive, Haverster, Cyst and Upgrade Chamber: 0
+            - Whip: 15
+            - Crag, Shift, Shade and Drifter: 10            
+    - Marines
+        - Start with 150 supply and get 50 extra supply for each additional Command Chair(CC)
+        - Supply costs:
+            - CCs, Extractors and Sentry Battery: 0
+            - Infantry Portal, Armory and Robotic Factory: 10
+            - Phase Gate: 10
+            - Adv. Armory and ARC Factory: 15 (5 for Upgrade)
+            - Observatory, Arms Lab and Protype Lab: 15
+            - MACs: 10
+            - Sentry: 15
+            - ARC: 15
 
 ###All Changes:
 
@@ -33,15 +51,12 @@ This mod contains various prototype balance changes based on various ideas of th
     - Upgrades
         - Autoselect upgrades at spawn
             - At spawn, previously selected upgrades will be reapplied if they are still available.
-            - If the player hasn't previously selected an upgrade for an available trait, a random one will be applied at spawn. 
-
+            - If the player hasn't previously selected an upgrade for an available trait, a random one will be applied at spawn.
         - Crush
             - Requires a Shift Hive (instead of a Crag Hive)
-
         - Silence
             - Doesn't affect attack sounds anymore
-            - Requires a Shade Hive (instead of a Shift Hive)
-            
+            - Requires a Shade Hive (instead of a Shift Hive)            
         - Vampirism
             - Now requires a Crag Hive (instead of a Shade Hive)
             - Doesn't cloak anymore
@@ -54,21 +69,16 @@ This mod contains various prototype balance changes based on various ideas of th
                 - Fade Swipe: 3% (7.5-9.3 hp)
                 - Fade Stab: 6% (15-18.6 hp)
                 - Onos Gore: 1.5% (18-25.2 hp)
-            - If Focus is selected, Vampirism will heal additional 33% to compensate for the longer attack cooldowns.
-        
+            - If Focus is selected, Vampirism will heal additional 33% to compensate for the longer attack cooldowns.        
         - Alien Regeneration
-            - Alien Regeneration (both the upgrade and the natural one) doesn't restore health if you have been hurt less than 3 seconds ago.
-        
+            - Alien Regeneration (both the upgrade and the natural one) doesn't restore health if you have been hurt less than 3 seconds ago.        
         - Regeneration 
             - Increased amount of hp regen restores every 2 secs to 4% (from 2%) of the base hp for each shell.
-
         - Focus
-            - Attacks consume 33% more energy.
-            
+            - Attacks consume 33% more energy.            
         - Adrenaline
             - Adrenaline no longer increases the energy regeneration rate. It did increase the regeneration rate 1/sec per shell. The default energy regeneration rate is 10/sec.
-            - Adrenaline increases now the max energy by 20 energy per shell (instead by only 10). Default max energy is 100.
-            
+            - Adrenaline increases now the max energy by 20 energy per shell (instead by only 10). Default max energy is 100.            
     - Gorge 
         - Gorge Tunnel
            - Increased the Pres cost to 4 (from 3).
@@ -80,11 +90,28 @@ This mod contains various prototype balance changes based on various ideas of th
             - Added passive abilities for each hive type:
                 - Camouflage (Shade Hive): Drifters turn invisible when they idle.
                 - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
-                - Celerity (Shift Hive): Drifters move 18% faster.
-                
+                - Celerity (Shift Hive): Drifters move 18% faster.                
 - Marines
     - Advanced Amory
-        - The Advanced Amory now repairs armor and removes parasite
+        - The Advanced Amory now repairs armor and removes parasite        
+- Rebalanced the Supply system
+    - Aliens
+        - Have 100 supply per Hive
+        - Supply costs:
+            - Hive, Haverster, Cyst and Upgrade Chamber: 0
+            - Whip: 15
+            - Crag, Shift, Shade and Drifter: 10            
+    - Marines
+        - Start with 150 supply and get 50 extra supply for each additional Command Chair(CC)
+        - Supply costs:
+            - CCs, Extractors and Sentry Battery: 0
+            - Infantry Portal, Armory and Robotic Factory: 10
+            - Phase Gate: 10
+            - Adv. Armory and ARC Factory: 15 (5 for Upgrade)
+            - Observatory, Arms Lab and Protype Lab: 15
+            - MACs: 10
+            - Sentry: 15
+            - ARC: 15
         
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
