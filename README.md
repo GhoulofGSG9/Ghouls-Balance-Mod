@@ -14,8 +14,18 @@ This mod contains various prototype balance changes based on various ideas of th
 - Adrenaline
     - Adrenaline no longer increases the energy regeneration rate. It did increase the regeneration rate 1/sec per shell. The default energy regeneration rate is 10/sec.
     - Adrenaline increases now the max energy by 20 energy per shell (instead by only 10). Default max energy is 100.
- - Advanced Amory
-        - The Advanced Amory now repairs armor and removes parasite    
+- Vampirism
+    - Vampirism now also restors carapace (alien armor)
+    - Vampirsim now restores a fraction of your max health instead of a static amount:
+        - Fraction for each shell / attack:
+        - Skulk Bite: 8% (6-8.9 hp)
+        - Gorge Spit: 3% (4.8-5.5 hp)
+        - Lerk Bite: 4.76% (7.1-8.3 hp)
+        - Fade Swipe: 3% (7.5-9.3 hp)
+        - Fade Stab: 6% (15-18.6 hp)
+        - Onos Gore: 1.5% (18-25.2 hp)
+- Advanced Amory
+    - The Advanced Amory now repairs armor and removes parasite    
 
 ###All Changes:
 
@@ -35,13 +45,15 @@ This mod contains various prototype balance changes based on various ideas of th
         - Vampirism
             - Now requires a Crag Hive (instead of a Shade Hive)
             - Doesn't cloak anymore
-            - Rebalanced health gain values (for each shell):
-                - Skulk: 5 (from 5)
-                - Gorge: 6 (from 5)
-                - Lerk (Bite): 5 (from 3)
-                - Lerk (Spike): 2 (from 0.66)
-                - Fade: 12 (from 6.66)
-                - Onos: 20 (from  13.33)
+            - Does also restors carapace (alien armor)
+            - Does restores a fraction of your max health instead of healing instead of static amount:
+                - Fraction for each shell / attack:
+                - Skulk Bite: 8% (6-8.9 hp)
+                - Gorge Spit: 3% (4.8-5.5 hp)
+                - Lerk Bite: 4.76% (7.1-8.3 hp)
+                - Fade Swipe: 3% (7.5-9.3 hp)
+                - Fade Stab: 6% (15-18.6 hp)
+                - Onos Gore: 1.5% (18-25.2 hp)
             - If Focus is selected, Vampirism will heal additional 33% to compensate for the longer attack cooldowns.
         
         - Alien Regeneration

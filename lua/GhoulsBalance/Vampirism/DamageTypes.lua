@@ -1,10 +1,23 @@
+kBiteLeapVampirismScalar = 0.08
+kParasiteVampirismScalar = 0
+kSpitVampirismScalar = 0.03
+kHealSprayVampirismScalar = 0
+kLerkBiteVampirismScalar = 0.0476
+kSpikesVampirismScalar = 0
+kSwipeVampirismScalar = 0.03
+kStabVampirismScalar = 0.06
+kGoreVampirismScalar = 0.015
+
+kAlienVampirismNotHealArmor = false
+
 kLifeformVampirismScalars = {} --FIXME change to Weapon/Doer classnames, not lifeform
-kLifeformVampirismScalars["Skulk"] = 14
-kLifeformVampirismScalars["Gorge"] = 18
-kLifeformVampirismScalars["LerkBite"] = 15
-kLifeformVampirismScalars["LerkSpikes"] = 6
-kLifeformVampirismScalars["Fade"] = 36
-kLifeformVampirismScalars["Onos"] = 60
+kLifeformVampirismScalars["Skulk"] = kBiteLeapVampirismScalar
+kLifeformVampirismScalars["Gorge"] = kSpitVampirismScalar
+kLifeformVampirismScalars["LerkBite"] = kLerkBiteVampirismScalar
+kLifeformVampirismScalars["LerkSpikes"] = kSpikesVampirismScalar
+kLifeformVampirismScalars["SwipeBlink"] = kSwipeVampirismScalar
+kLifeformVampirismScalars["StabBlink"] = kStabVampirismScalar
+kLifeformVampirismScalars["Onos"] = kGoreVampirismScalar
 
 function NS2Gamerules_GetAlienVampiricLeechFactor( attacker, doer, damageType, veilLevel )
 
@@ -33,11 +46,13 @@ function NS2Gamerules_GetAlienVampiricLeechFactor( attacker, doer, damageType, v
 		return 0
 	elseif attackerClass == "Skulk" and ( doerClassName == "Parasite" or doerClassName == "XenocideLeap" )then
 		return 0
+	elseif attackerClass == "Fade" then
+		attackerClass = doerClassName
 	end
 
 	local baseLeechAmount = kLifeformVampirismScalars[attackerClass]
-	if baseLeechAmount ~= nil and type(baseLeechAmount) == "number" then
-		leechFactor = baseLeechAmount * ( veilLevel * kAlienVampirismHealingScalarPerLevel )
+	if baseLeechAmount and type(baseLeechAmount) == "number" then
+		leechFactor = attacker:GetMaxHealth() * ( veilLevel * baseLeechAmount )
 	end
 
 	if attacker:GetHasUpgrade( kTechId.Focus ) then
