@@ -14,8 +14,8 @@ This mod contains various prototype balance changes based on various ideas of th
 - Adrenaline
     - Adrenaline no longer increases the energy regeneration rate. It did increase the regeneration rate 1/sec per shell. The default energy regeneration rate is 10/sec.
     - Adrenaline increases now the max energy by 20 energy per shell (instead by only 10). Default max energy is 100.
-    
-    
+ - Advanced Amory
+        - The Advanced Amory now repairs armor and removes parasite    
 
 ###All Changes:
 
@@ -69,7 +69,11 @@ This mod contains various prototype balance changes based on various ideas of th
                 - Camouflage (Shade Hive): Drifters turn invisible when they idle.
                 - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
                 - Celerity (Shift Hive): Drifters move 18% faster.
-
+                
+- Marines
+    - Advanced Amory
+        - The Advanced Amory now repairs armor and removes parasite
+        
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
 Feel free to leave feedback ;)
