@@ -4,7 +4,7 @@
 
 This mod contains various prototype balance changes based on various ideas of the NS2 balance team.
 
-###Latest Changes (7 May 2018):
+### Latest Changes (7 May 2018):
 
 - Lerk
     - Increased Pres Cost to 21 (from 18).
@@ -45,7 +45,7 @@ This mod contains various prototype balance changes based on various ideas of th
             - Sentry: 15
             - ARC: 15
 
-###All Changes:
+### All Changes:
 
 - Aliens
     - Upgrades
