@@ -12,7 +12,7 @@ This mod contains various prototype balance changes based on various ideas of th
     - Increased the Pres cost to 4 (from 3).
     - Increased the growth time to 30 seconds (from 10). So it takes now 15 seconds to build with heal spry instead of 5 seconds.
 - Adrenaline
-    - Adrenaline no longer increases the energy regeneration rate. It did increase the regeneration rate 1/sec per shell. The default energy regeneration rate is 10/sec.
+    - Adrenaline no longer increases the energy regeneration rate. It did increase the regeneration rate 1/sec per spur. The default energy regeneration rate is 10/sec.
     - Adrenaline increases now the max energy by 20 energy per shell (instead by only 10). Default max energy is 100.
 - Vampirism
     - Vampirism now also restors carapace (alien armor)
