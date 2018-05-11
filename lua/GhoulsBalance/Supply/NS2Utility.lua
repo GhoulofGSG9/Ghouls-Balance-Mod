@@ -1,11 +1,11 @@
--- Marines = 100 + 50 * cc
+-- Marines = 100 + 100 * cc
 -- Aliens = 100 * hives
 
 -- Todo: Use team getter methods to fectbh these values
 local kAlienBaseSupply = 0
 local kMarineBaseSupply = 100
 local kAlienSuppyPerTechPoint = 100
-local kMarineSuppyPerTechPoint = 50
+local kMarineSuppyPerTechPoint = 100
 
 function GetMaxSupplyForTeam(teamNumber)
 

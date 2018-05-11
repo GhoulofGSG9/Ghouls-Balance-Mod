@@ -4,46 +4,22 @@
 
 This mod contains various prototype balance changes based on various ideas of the NS2 balance team.
 
-### Latest Changes (7 May 2018):
+### Latest Changes (10 May 2018):
+*Thanks for all the feedback you send us about the last update*
 
-- Lerk
-    - Increased Pres Cost to 21 (from 18).
 - Gorge Tunnel
-    - Increased the Pres cost to 4 (from 3).
-    - Increased the growth time to 30 seconds (from 10). So it takes now 15 seconds to build with heal spry instead of 5 seconds.
-- Adrenaline
-    - Adrenaline no longer increases the energy regeneration rate. It did increase the regeneration rate 1/sec per spur. The default energy regeneration rate is 10/sec.
-    - Adrenaline increases now the max energy by 20 energy per shell (instead by only 10). Default max energy is 100.
-- Vampirism
-    - Vampirism now also restors carapace (alien armor)
-    - Vampirsim now restores a fraction of your max health instead of a static amount:
-        - Fraction for each shell / attack:
-        - Skulk Bite: 8% (6-8.9 hp)
-        - Gorge Spit: 3% (4.8-5.5 hp)
-        - Lerk Bite: 4.76% (7.1-8.3 hp)
-        - Fade Swipe: 3% (7.5-9.3 hp)
-        - Fade Stab: 6% (15-18.6 hp)
-        - Onos Gore: 1.5% (18-25.2 hp)
-- Advanced Amory
-    - The Advanced Amory now repairs armor and removes parasite
-- Rebalanced the Supply system
-    - Aliens
-        - Have 100 supply per Hive
-        - Supply costs:
-            - Hive, Haverster, Cyst and Upgrade Chamber: 0
-            - Whip: 15
-            - Crag, Shift, Shade and Drifter: 10            
+    - Decreased the growth time to 25 secs (from 30 secs). Vanilla value is still 10 seconds.
+    - *Tip: Don't forget that you can help your fellow gorge to build a tunnel during a rush*
+- Gorge
+    - Healspray
+        - Decreased the energy cost for using healspray to 10 (from 12)
+    - Structure drop ability
+        - Decreased the energy cost for dropping a structure (clog, hydra, babbler egg) to 15 (from 20)
+- Rebalanced the Supply system        
     - Marines
-        - Start with 150 supply and get 50 extra supply for each additional Command Chair(CC)
+        - Start now with 200 supplies and get 100 extra supplies for each additional Command Chair(CC)
         - Supply costs:
-            - CCs, Extractors and Sentry Battery: 0
-            - Infantry Portal, Armory and Robotic Factory: 10
-            - Phase Gate: 10
-            - Adv. Armory and ARC Factory: 15 (5 for Upgrade)
-            - Observatory, Arms Lab and Protype Lab: 15
-            - MACs: 10
-            - Sentry: 15
-            - ARC: 15
+            - The Infantry portal doesn't cost any supplies anymore
 
 ### All Changes:
 
@@ -82,7 +58,11 @@ This mod contains various prototype balance changes based on various ideas of th
     - Gorge 
         - Gorge Tunnel
            - Increased the Pres cost to 4 (from 3).
-           - Increased the growth time to 30 seconds (from 10). So it takes now 15 seconds to build with heal spry instead of 5 seconds.                    
+           - Increased the growth time to 25 seconds (from 10). So it takes now 12.5 seconds to build with heal spry instead of 5 seconds.
+        - Heal Spray
+            - Decreased the enrgy cost for using healspray to 10 (from 12)
+        - Structure drop ability
+            - Decreased the energy cost for dropping a structure (clog, hydra, babbler egg) to 15 (from 20)                       
     - Lerk
         - Increased Pres Cost to 21 (from 18)    
     - PvE
@@ -96,16 +76,16 @@ This mod contains various prototype balance changes based on various ideas of th
         - The Advanced Amory now repairs armor and removes parasite        
 - Rebalanced the Supply system
     - Aliens
-        - Have 100 supply per Hive
+        - Have 100 supplies per Hive
         - Supply costs:
             - Hive, Haverster, Cyst and Upgrade Chamber: 0
             - Whip: 15
             - Crag, Shift, Shade and Drifter: 10            
     - Marines
-        - Start with 150 supply and get 50 extra supply for each additional Command Chair(CC)
+        - Start with 200 supplies and get 100 extra supplies for each additional Command Chair(CC)
         - Supply costs:
-            - CCs, Extractors and Sentry Battery: 0
-            - Infantry Portal, Armory and Robotic Factory: 10
+            - CCs, Extractors, Infantry Portal and Sentry Battery: 0
+            - Armory and Robotic Factory: 10
             - Phase Gate: 10
             - Adv. Armory and ARC Factory: 15 (5 for Upgrade)
             - Observatory, Arms Lab and Protype Lab: 15

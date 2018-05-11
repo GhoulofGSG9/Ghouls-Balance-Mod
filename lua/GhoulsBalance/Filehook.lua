@@ -47,6 +47,7 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeTunnelNerf/B
 --Adrenaline change to not regen energy anymore
 ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Adrenaline/Alien.lua", "post" )
 ModLoader.SetupFileHook( "lua/BalanceMisc.lua", "lua/GhoulsBalance/Adrenaline/BalanceMisc.lua", "post" )
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Adrenaline/Balance.lua", "post" )
 
 --Suppy Rebalance
 ModLoader.SetupFileHook( "lua/BalanceMisc.lua", "lua/GhoulsBalance/Supply/BalanceMisc.lua", "post" )

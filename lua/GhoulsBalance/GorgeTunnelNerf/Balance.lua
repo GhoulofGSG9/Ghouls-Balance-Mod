@@ -1,2 +1,2 @@
 kGorgeTunnelCost = 4
-kGorgeTunnelBuildTime = 30
+kGorgeTunnelBuildTime = 25

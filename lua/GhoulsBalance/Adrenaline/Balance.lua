@@ -1,0 +1,1 @@
+kHealsprayEnergyCost = 10
