@@ -8,7 +8,8 @@ This mod contains various prototype balance changes based on various ideas of th
 *Keep your feedback coming*
 
 - Fade
-    - Decreased the size of the Fade's hitbox. It's now in-between were it was before the last change and the current hitbox size: ![Comparison between old and new fade model](fade hitbox change.JPG)    
+    - Decreased the size of the Fade's hitbox. It's now in-between were it was before the last change and the current hitbox size: 
+    ![Comparison between old and new fade model](https://raw.githubusercontent.com/GhoulofGSG9/Ghouls-Balance-Mod/gh-pages/fade%20hitbox%20change.JPG "fade hitbox changes")
     - _All fade skins are disabled for now because only the normal fade model has been changed. Sorry for that._
 - Cysts
     - Decreased max health of full matured Cysts to 200 (from 450).
@@ -24,7 +25,8 @@ This mod contains various prototype balance changes based on various ideas of th
 
 - Aliens
     - Fade
-        - Decreased the size of the Fade's hitbox. It's now in-between were it was before the last change and the current hitbox size: ![Comparison between old and new fade model](fade hitbox change.JPG)    
+        - Decreased the size of the Fade's hitbox. It's now in-between were it was before the last change and the current hitbox size: 
+        ![Comparison between old and new fade model](https://raw.githubusercontent.com/GhoulofGSG9/Ghouls-Balance-Mod/gh-pages/fade%20hitbox%20change.JPG "fade hitbox changes")    
         - _All fade skins are disabled for now because only the normal fade model has been changed. Sorry for that._
     - Upgrades
         - Autoselect upgrades at spawn
