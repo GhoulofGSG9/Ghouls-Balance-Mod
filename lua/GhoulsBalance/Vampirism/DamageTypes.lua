@@ -53,10 +53,16 @@ function NS2Gamerules_GetAlienVampiricLeechFactor( attacker, doer, damageType, v
 	local baseLeechAmount = kLifeformVampirismScalars[attackerClass]
 	if baseLeechAmount and type(baseLeechAmount) == "number" then
 		leechFactor = attacker:GetMaxHealth() * ( veilLevel * baseLeechAmount )
-	end
 
-	if attacker:GetHasUpgrade( kTechId.Focus ) then
-		leechFactor = leechFactor * (1 + kFocusAttackSlowAtMax)
+		if attacker:GetHasUpgrade( kTechId.Focus ) then
+			leechFactor = leechFactor * (1 + kFocusAttackSlowAtMax)
+		end
+
+		if leechFactor > 0 and doer.GetEnergyCost then
+            local energy = doer:GetEnergyCost() / 4 -- restores 1/4 of the used energy for each upgrade chamber
+			attacker:AddEnergy(veilLevel * energy)
+		end
+
 	end
 
 	return leechFactor

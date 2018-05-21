@@ -61,3 +61,10 @@ ModLoader.SetupFileHook( "lua/RoboticsFactory.lua", "lua/GhoulsBalance/Supply/Ro
 
 -- Improved Advanced Armory
 ModLoader.SetupFileHook( "lua/Armory.lua", "lua/GhoulsBalance/AdvAmoryAmorRepair/Armory.lua", "post" )
+
+-- Smaller fade hitbox
+ModLoader.SetupFileHook( "lua/FadeVariantMixin.lua", "lua/GhoulsBalance/FadeHitbox/FadeVariantMixin.lua", "post" )
+
+-- Max cyst health no longer depending on distance to hive
+ModLoader.SetupFileHook( "lua/Cyst.lua", "lua/GhoulsBalance/CystHealth/Cyst.lua", "post" )
+ModLoader.SetupFileHook( "lua/BalanceMisc.lua", "lua/GhoulsBalance/CystHealth/BalanceMisc.lua", "post" )

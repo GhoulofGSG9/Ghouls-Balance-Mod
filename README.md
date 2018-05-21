@@ -4,26 +4,28 @@
 
 This mod contains various prototype balance changes based on various ideas of the NS2 balance team.
 
-### Latest Changes (10 May 2018):
-*Thanks for all the feedback you send us about the last update*
+### Latest Changes (21 May 2018):
+*Keep your feedback coming*
 
+- Fade
+    - Decreased the size of the Fade's hitbox. It's now in-between were it was before the last change and the current hitbox size: ![Comparison between old and new fade model](fade hitbox change.JPG)    
+    - _All fade skins are disabled for now because only the normal fade model has been changed. Sorry for that._
+- Cysts
+    - Decreased max health of full matured Cysts to 200 (from 450).
+    - Decreased the time it takes cyst to mature to 15 seconds (from 45).
+    - The max health of a Cyst does no longer vary based on it's distance to the next hive.
+- Vampirism
+    - Vampirsim now restores 1/4 per shell of energy costs of affected abilities on a successful hit.
 - Gorge Tunnel
-    - Decreased the growth time to 25 secs (from 30 secs). Vanilla value is still 10 seconds.
-    - *Tip: Don't forget that you can help your fellow gorge to build a tunnel during a rush*
-- Gorge
-    - Healspray
-        - Decreased the energy cost for using healspray to 10 (from 12)
-    - Structure drop ability
-        - Decreased the energy cost for dropping a structure (clog, hydra, babbler egg) to 15 (from 20)
-- Rebalanced the Supply system        
-    - Marines
-        - Start now with 200 supplies and get 100 extra supplies for each additional Command Chair(CC)
-        - Supply costs:
-            - The Infantry portal doesn't cost any supplies anymore
+    - Gorge tunnels cost 3 pres again.
+
 
 ### All Changes:
 
 - Aliens
+    - Fade
+        - Decreased the size of the Fade's hitbox. It's now in-between were it was before the last change and the current hitbox size: ![Comparison between old and new fade model](fade hitbox change.JPG)    
+        - _All fade skins are disabled for now because only the normal fade model has been changed. Sorry for that._
     - Upgrades
         - Autoselect upgrades at spawn
             - At spawn, previously selected upgrades will be reapplied if they are still available.
@@ -45,7 +47,8 @@ This mod contains various prototype balance changes based on various ideas of th
                 - Fade Swipe: 3% (7.5-9.3 hp)
                 - Fade Stab: 6% (15-18.6 hp)
                 - Onos Gore: 1.5% (18-25.2 hp)
-            - If Focus is selected, Vampirism will heal additional 33% to compensate for the longer attack cooldowns.        
+            - If Focus is selected, Vampirism will heal additional 33% to compensate for the longer attack cooldowns.
+            - Now restores 1/4 per shell of energy costs of affected abilities on a successful hit.      
         - Alien Regeneration
             - Alien Regeneration (both the upgrade and the natural one) doesn't restore health if you have been hurt less than 3 seconds ago.        
         - Regeneration 
@@ -57,7 +60,6 @@ This mod contains various prototype balance changes based on various ideas of th
             - Adrenaline increases now the max energy by 20 energy per shell (instead by only 10). Default max energy is 100.            
     - Gorge 
         - Gorge Tunnel
-           - Increased the Pres cost to 4 (from 3).
            - Increased the growth time to 25 seconds (from 10). So it takes now 12.5 seconds to build with heal spry instead of 5 seconds.
         - Heal Spray
             - Decreased the enrgy cost for using healspray to 10 (from 12)
@@ -70,7 +72,11 @@ This mod contains various prototype balance changes based on various ideas of th
             - Added passive abilities for each hive type:
                 - Camouflage (Shade Hive): Drifters turn invisible when they idle.
                 - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
-                - Celerity (Shift Hive): Drifters move 18% faster.                
+                - Celerity (Shift Hive): Drifters move 18% faster.
+        - Cysts
+            - Decreased max health of full matured Cysts to 200 (from 450).
+            - Decreased the time it takes cyst to mature to 15 seconds (from 45).
+            - The max health of a Cyst does no longer vary based on it's distance to the next hive.             
 - Marines
     - Advanced Amory
         - The Advanced Amory now repairs armor and removes parasite        
@@ -85,13 +91,10 @@ This mod contains various prototype balance changes based on various ideas of th
         - Start with 200 supplies and get 100 extra supplies for each additional Command Chair(CC)
         - Supply costs:
             - CCs, Extractors, Infantry Portal and Sentry Battery: 0
-            - Armory and Robotic Factory: 10
-            - Phase Gate: 10
+            - Armory, Robotic Factory and Phase Gate: 10
             - Adv. Armory and ARC Factory: 15 (5 for Upgrade)
             - Observatory, Arms Lab and Protype Lab: 15
-            - MACs: 10
-            - Sentry: 15
-            - ARC: 15
+            - MACs, Sentry, ARC: 10
         
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
