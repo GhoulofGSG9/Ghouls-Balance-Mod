@@ -4,22 +4,11 @@
 
 This mod contains various prototype balance changes based on various ideas of the NS2 balance team.
 
-### Latest Changes (21 May 2018):
-*Keep your feedback coming*
+### Latest Changes (6 June 2018):
+*Rolling back some previous changes to confirm their effects*
 
-- Fade
-    - Decreased the size of the Fade's hitbox. It's now in-between were it was before the last change and the current hitbox size: 
-    ![Comparison between old and new fade model](https://raw.githubusercontent.com/GhoulofGSG9/Ghouls-Balance-Mod/gh-pages/fade%20hitbox%20change.JPG "fade hitbox changes")
-    - _All fade skins are disabled for now because only the normal fade model has been changed. Sorry for that._
-- Cysts
-    - Decreased max health of full matured Cysts to 200 (from 450).
-    - Decreased the time it takes cyst to mature to 15 seconds (from 45).
-    - The max health of a Cyst does no longer vary based on it's distance to the next hive.
-- Vampirism
-    - Vampirsim now restores 1/4 per shell of energy costs of affected abilities on a successful hit.
-- Gorge Tunnel
-    - Gorge tunnels cost 3 pres again.
-
+- Reverted back to the vanilla supply system (each team has 200 suppy, only a few structures cost supply)
+- Removed the energy gain of Vampirism
 
 ### All Changes:
 
@@ -49,8 +38,7 @@ This mod contains various prototype balance changes based on various ideas of th
                 - Fade Swipe: 3% (7.5-9.3 hp)
                 - Fade Stab: 6% (15-18.6 hp)
                 - Onos Gore: 1.5% (18-25.2 hp)
-            - If Focus is selected, Vampirism will heal additional 33% to compensate for the longer attack cooldowns.
-            - Now restores 1/4 per shell of energy costs of affected abilities on a successful hit.      
+            - If Focus is selected, Vampirism will heal additional 33% to compensate for the longer attack cooldowns.    
         - Alien Regeneration
             - Alien Regeneration (both the upgrade and the natural one) doesn't restore health if you have been hurt less than 3 seconds ago.        
         - Regeneration 
@@ -81,22 +69,7 @@ This mod contains various prototype balance changes based on various ideas of th
             - The max health of a Cyst does no longer vary based on it's distance to the next hive.             
 - Marines
     - Advanced Amory
-        - The Advanced Amory now repairs armor and removes parasite        
-- Rebalanced the Supply system
-    - Aliens
-        - Have 100 supplies per Hive
-        - Supply costs:
-            - Hive, Haverster, Cyst and Upgrade Chamber: 0
-            - Whip: 15
-            - Crag, Shift, Shade and Drifter: 10            
-    - Marines
-        - Start with 200 supplies and get 100 extra supplies for each additional Command Chair(CC)
-        - Supply costs:
-            - CCs, Extractors, Infantry Portal and Sentry Battery: 0
-            - Armory, Robotic Factory and Phase Gate: 10
-            - Adv. Armory and ARC Factory: 15 (5 for Upgrade)
-            - Observatory, Arms Lab and Protype Lab: 15
-            - MACs, Sentry, ARC: 10
+        - The Advanced Amory now repairs armor and removes parasite
         
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
