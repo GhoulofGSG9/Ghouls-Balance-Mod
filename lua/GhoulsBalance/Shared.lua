@@ -1,7 +1,7 @@
 --Check for diabling global
 if gDisableUWEBalance then return end
 
-GBM_version = 201806061 --year month day versionofday
+GBM_version = 201806151 --year month day versionofday
 
 if AddModPanel then
 	local panel = PrecacheAsset("materials/ghoulsbalancemod/panel.material")
